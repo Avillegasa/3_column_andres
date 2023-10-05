@@ -1,0 +1,12 @@
+.cars{
+    width: 100%;
+}
+.orange{
+    background-color: orange;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 30px;
+}
