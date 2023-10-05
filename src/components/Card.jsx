@@ -1,12 +1,11 @@
 import React from "react";
-import './styles/Organizmo.css'
-function organizmo(props) 
-{
-    return(
+import './styles/card.css'
+function Card(props) {
+    return (
         <div className="organizmo-contenedor">
             {props.children}
         </div>
     )
-    
+
 }
-export default organizmo
+export default Card

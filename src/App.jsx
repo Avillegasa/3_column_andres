@@ -2,14 +2,14 @@ import { cars } from './assets/carsAPI'
 import './App.css'
 import Cars from './components/Cars'
 import Button from './components/button'
-import Organizmo from './components/organizmo'
+import Card from './components/Card'
 function App() {
   return (
     <div>
-      <Organizmo>
+      <Card>
         <Cars cars={cars} />
         <Button button />
-      </Organizmo>
+      </Card>
     </div>
   )
 }
