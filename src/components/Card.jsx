@@ -1,11 +1,10 @@
 import React from "react";
-import './styles/card.css'
+import "./styles/Card.css";
 function Card(props) {
-    return (
-        <div className="organizmo-contenedor">
-            {props.children}
-        </div>
-    )
+    const cars = props.cars;
+    const theme = cars.theme;
+    console.log(theme);
 
+    return <div className={`organizmo-contenedor ${theme}`}>{props.children}</div>;
 }
-export default Card
+export default Card;

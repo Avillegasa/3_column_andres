@@ -5,11 +5,18 @@ import Button from './components/button'
 import Card from './components/Card'
 function App() {
   return (
-    <div>
-      <Card>
-        <Cars cars={cars} />
-        <Button button />
-      </Card>
+    <div className='App-container'>
+      {
+        cars.map(car => {
+          return (
+            <Card cars={car}>
+              <Cars cars={car} />
+              <Button button />
+            </Card>
+          )
+        })
+      }
+
     </div>
   )
 }

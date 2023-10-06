@@ -1,10 +1,10 @@
-.button{
+.button {
     width: 100%;
-    background-color: orange;
     display: flex;
     padding: 30px;
 }
-.orange-button{
+
+.orange-button {
     width: 150px;
     height: 40px;
     border: 2px solid white;

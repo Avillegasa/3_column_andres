@@ -1,8 +1,9 @@
-.cars{
+.cars {
     width: 100%;
 }
-.orange{
-    background-color: orange;
+
+.cars-container {
+
     display: flex;
     color: white;
     flex-direction: column;
