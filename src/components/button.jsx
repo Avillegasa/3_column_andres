@@ -3,9 +3,9 @@ function button(props) {
     const more = props.more
     return (
         <section className='button'>
-            <div className='orange-button'>
-                <p>Learn More</p>
-            </div>
+            <button className='orange-button'>
+                Learn More
+            </button>
         </section>
     )
 

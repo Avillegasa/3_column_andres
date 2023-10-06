@@ -20,13 +20,13 @@
 }
 
 .rojo {
-    background-color: red;
+    background-color: var(--red-light);
 }
 
 .rosa {
-    background-color: palevioletred;
+    background-color: var(--pink-light);
 }
 
 .violeta {
-    background-color: blueviolet;
+    background-color: var(--violet-light);
 }

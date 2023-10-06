@@ -2,6 +2,9 @@
   --Bright-orange: hsl(31, 77%, 52%);
   --Dark-cyan: hsl(184, 100%, 22%);
   --Very-dark-cyan: hsl(179, 100%, 13%);
+  --red-light: hsl(0, 70%, 70%);
+  --violet-light: hsl(270, 50%, 70%);
+  --pink-light: hsl(330, 50%, 80%);
 
   --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
   --Very-light-gray-background-headings-buttons: hsl(0, 0%, 95%);

@@ -38,13 +38,13 @@ export const cars = [
     {
       title: "Pick_up",
       description:" It typically has a sturdy body-on-frame construction, making it suitable for carrying heavy loads and towing trailers.",
-      imgUrl: "/icon-luxury.svg",
+      imgUrl: "/icon-sedans.svg",
       theme: "orange",
     },
     {
       title: "Muv",
       description:" is a versatile automobile designed to accommodate multiple passengers and offer increased interior space, comfort, and practicality.",
-      imgUrl: "/icon-luxury.svg",
+      imgUrl: "/icon-suvs.svg",
       theme: "green",
     },
     {
@@ -74,7 +74,7 @@ export const cars = [
     {
       title: "Muscle",
       description:"A muscle car is a type of high-performance automobile characterized by its powerful engine, specifically designed to deliver maximum speed and acceleration.",
-      imgUrl: "/icon-luxury.svg",
+      imgUrl: "/icon-sedans.svg",
       theme: "orange",
     }
   ]
